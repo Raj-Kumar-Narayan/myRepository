@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6D3590174F60660070AEF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6D358F174F60660070AEF0 /* Default-568h@2x.png */; };
+		F0B63F2813ED15510084BA6F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B63F2713ED15510084BA6F /* 2.png */; };
+		F0B63F2B13ED15560084BA6F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0B63F2A13ED15560084BA6F /* 1.png */; };
+		F0E2B01B13EBC07F00C7D9EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2B01A13EBC07F00C7D9EE /* UIKit.framework */; };
+		F0E2B01D13EBC07F00C7D9EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2B01C13EBC07F00C7D9EE /* Foundation.framework */; };
+		F0E2B01F13EBC07F00C7D9EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2B01E13EBC07F00C7D9EE /* CoreGraphics.framework */; };
+		F0E2B02513EBC07F00C7D9EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0E2B02313EBC07F00C7D9EE /* InfoPlist.strings */; };
+		F0E2B02813EBC07F00C7D9EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2B02713EBC07F00C7D9EE /* main.m */; };
+		F0E2B02B13EBC07F00C7D9EE /* ImageChangeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2B02A13EBC07F00C7D9EE /* ImageChangeAppDelegate.m */; };
+		F0E2B02E13EBC07F00C7D9EE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E2B02C13EBC07F00C7D9EE /* MainWindow.xib */; };
+		F0E2B03113EBC07F00C7D9EE /* ImageChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2B03013EBC07F00C7D9EE /* ImageChangeViewController.m */; };
+		F0E2B03413EBC07F00C7D9EE /* ImageChangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E2B03213EBC07F00C7D9EE /* ImageChangeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE6D358F174F60660070AEF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0B63F2713ED15510084BA6F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = SOURCE_ROOT; };
+		F0B63F2A13ED15560084BA6F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
+		F0E2B01613EBC07F00C7D9EE /* ImageChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E2B01A13EBC07F00C7D9EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0E2B01C13EBC07F00C7D9EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0E2B01E13EBC07F00C7D9EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0E2B02213EBC07F00C7D9EE /* ImageChange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageChange-Info.plist"; sourceTree = "<group>"; };
+		F0E2B02413EBC07F00C7D9EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0E2B02613EBC07F00C7D9EE /* ImageChange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageChange-Prefix.pch"; sourceTree = "<group>"; };
+		F0E2B02713EBC07F00C7D9EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0E2B02913EBC07F00C7D9EE /* ImageChangeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageChangeAppDelegate.h; sourceTree = "<group>"; };
+		F0E2B02A13EBC07F00C7D9EE /* ImageChangeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageChangeAppDelegate.m; sourceTree = "<group>"; };
+		F0E2B02D13EBC07F00C7D9EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F0E2B02F13EBC07F00C7D9EE /* ImageChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageChangeViewController.h; sourceTree = "<group>"; };
+		F0E2B03013EBC07F00C7D9EE /* ImageChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageChangeViewController.m; sourceTree = "<group>"; };
+		F0E2B03313EBC07F00C7D9EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageChangeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0E2B01313EBC07F00C7D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2B01B13EBC07F00C7D9EE /* UIKit.framework in Frameworks */,
+				F0E2B01D13EBC07F00C7D9EE /* Foundation.framework in Frameworks */,
+				F0E2B01F13EBC07F00C7D9EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0E2B00B13EBC07F00C7D9EE = {
+			isa = PBXGroup;
+			children = (
+				CE6D358F174F60660070AEF0 /* Default-568h@2x.png */,
+				F0E2B02013EBC07F00C7D9EE /* ImageChange */,
+				F0E2B01913EBC07F00C7D9EE /* Frameworks */,
+				F0E2B01713EBC07F00C7D9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0E2B01713EBC07F00C7D9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2B01613EBC07F00C7D9EE /* ImageChange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0E2B01913EBC07F00C7D9EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2B01A13EBC07F00C7D9EE /* UIKit.framework */,
+				F0E2B01C13EBC07F00C7D9EE /* Foundation.framework */,
+				F0E2B01E13EBC07F00C7D9EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E2B02013EBC07F00C7D9EE /* ImageChange */ = {
+			isa = PBXGroup;
+			children = (
+				F0E2B02913EBC07F00C7D9EE /* ImageChangeAppDelegate.h */,
+				F0E2B02A13EBC07F00C7D9EE /* ImageChangeAppDelegate.m */,
+				F0E2B02C13EBC07F00C7D9EE /* MainWindow.xib */,
+				F0E2B02F13EBC07F00C7D9EE /* ImageChangeViewController.h */,
+				F0E2B03013EBC07F00C7D9EE /* ImageChangeViewController.m */,
+				F0E2B03213EBC07F00C7D9EE /* ImageChangeViewController.xib */,
+				F0E2B02113EBC07F00C7D9EE /* Supporting Files */,
+			);
+			path = ImageChange;
+			sourceTree = "<group>";
+		};
+		F0E2B02113EBC07F00C7D9EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0B63F2A13ED15560084BA6F /* 1.png */,
+				F0B63F2713ED15510084BA6F /* 2.png */,
+				F0E2B02213EBC07F00C7D9EE /* ImageChange-Info.plist */,
+				F0E2B02313EBC07F00C7D9EE /* InfoPlist.strings */,
+				F0E2B02613EBC07F00C7D9EE /* ImageChange-Prefix.pch */,
+				F0E2B02713EBC07F00C7D9EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0E2B01513EBC07F00C7D9EE /* ImageChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E2B03713EBC07F00C7D9EE /* Build configuration list for PBXNativeTarget "ImageChange" */;
+			buildPhases = (
+				F0E2B01213EBC07F00C7D9EE /* Sources */,
+				F0E2B01313EBC07F00C7D9EE /* Frameworks */,
+				F0E2B01413EBC07F00C7D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageChange;
+			productName = ImageChange;
+			productReference = F0E2B01613EBC07F00C7D9EE /* ImageChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0E2B00D13EBC07F00C7D9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chakra Interactive Pvt Ltd";
+			};
+			buildConfigurationList = F0E2B01013EBC07F00C7D9EE /* Build configuration list for PBXProject "ImageChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0E2B00B13EBC07F00C7D9EE;
+			productRefGroup = F0E2B01713EBC07F00C7D9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0E2B01513EBC07F00C7D9EE /* ImageChange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0E2B01413EBC07F00C7D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2B02513EBC07F00C7D9EE /* InfoPlist.strings in Resources */,
+				F0E2B02E13EBC07F00C7D9EE /* MainWindow.xib in Resources */,
+				F0E2B03413EBC07F00C7D9EE /* ImageChangeViewController.xib in Resources */,
+				F0B63F2813ED15510084BA6F /* 2.png in Resources */,
+				F0B63F2B13ED15560084BA6F /* 1.png in Resources */,
+				CE6D3590174F60660070AEF0 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0E2B01213EBC07F00C7D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E2B02813EBC07F00C7D9EE /* main.m in Sources */,
+				F0E2B02B13EBC07F00C7D9EE /* ImageChangeAppDelegate.m in Sources */,
+				F0E2B03113EBC07F00C7D9EE /* ImageChangeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0E2B02313EBC07F00C7D9EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E2B02413EBC07F00C7D9EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0E2B02C13EBC07F00C7D9EE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E2B02D13EBC07F00C7D9EE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F0E2B03213EBC07F00C7D9EE /* ImageChangeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0E2B03313EBC07F00C7D9EE /* en */,
+			);
+			name = ImageChangeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0E2B03513EBC07F00C7D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0E2B03613EBC07F00C7D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F0E2B03813EBC07F00C7D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageChange/ImageChange-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ImageChange/ImageChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0E2B03913EBC07F00C7D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageChange/ImageChange-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ImageChange/ImageChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0E2B01013EBC07F00C7D9EE /* Build configuration list for PBXProject "ImageChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E2B03513EBC07F00C7D9EE /* Debug */,
+				F0E2B03613EBC07F00C7D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E2B03713EBC07F00C7D9EE /* Build configuration list for PBXNativeTarget "ImageChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E2B03813EBC07F00C7D9EE /* Debug */,
+				F0E2B03913EBC07F00C7D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0E2B00D13EBC07F00C7D9EE /* Project object */;
+}
